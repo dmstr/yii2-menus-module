@@ -1,9 +1,9 @@
 <?php
 // @group mandatory
 
-namespace dmstr\modules\menu\tests\unit;
+namespace dmstr\menus\tests\unit;
 
-use dmstr\modules\menu\models\Tree;
+use dmstr\menus\models\Tree;
 
 class ModelTestCase extends \Codeception\Test\Unit
 {

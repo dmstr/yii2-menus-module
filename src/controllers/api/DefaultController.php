@@ -1,8 +1,8 @@
 <?php
 
-namespace dmstr\modules\menu\controllers\api;
+namespace dmstr\menus\controllers\api;
 
-use dmstr\modules\menu\models\Tree;
+use dmstr\menus\models\Tree;
 use yii\rest\IndexAction;
 
 /**
@@ -28,10 +28,10 @@ class DefaultController extends \yii\rest\ActiveController
             /*
              * Supported $_GET params for /pages/api/default/index
              *
-             * @param dmstr\modules\menu\models\Tree::ATTR_ID
-             * @param dmstr\modules\menu\models\Tree::ATTR_DOMAIN_ID
-             * @param dmstr\modules\menu\models\Tree::ATTR_ROOT
-             * @param dmstr\modules\menu\models\Tree::ATTR_ACCESS_DOMAIN
+             * @param dmstr\menus\models\Tree::ATTR_ID
+             * @param dmstr\menus\models\Tree::ATTR_DOMAIN_ID
+             * @param dmstr\menus\models\Tree::ATTR_ROOT
+             * @param dmstr\menus\models\Tree::ATTR_ACCESS_DOMAIN
              */
             'index' => [
                 'class' => IndexAction::class,

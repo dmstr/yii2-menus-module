@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace dmstr\modules\menu\models;
+namespace dmstr\menus\models;
 
 use dmstr\db\traits\ActiveRecordAccessTrait;
-use dmstr\modules\menu\Module as PagesModule;
+use dmstr\menus\Module as PagesModule;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\db\Expression;
@@ -22,7 +22,7 @@ use dosamigos\translateable\TranslateableBehavior;
 /**
  * Class BaseTree
  *
- * @package dmstr\modules\menu\models
+ * @package dmstr\menus\models
  * @author Christopher Stebe <c.stebe@herzogkommunikation.de>
  *
  * @property \yii\db\ActiveQuery $translations

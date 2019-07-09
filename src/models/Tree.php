@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace dmstr\modules\menu\models;
+namespace dmstr\menus\models;
 
-use dmstr\modules\menu\helpers\PageHelper;
-use dmstr\modules\menu\Module as PagesModule;
+use dmstr\menus\helpers\PageHelper;
+use dmstr\menus\Module as PagesModule;
 use dosamigos\translateable\TranslateableBehavior;
 use rmrevin\yii\fontawesome\FA;
 use Yii;
@@ -45,7 +45,7 @@ use JsonSchema\Validator;
  * @property bool $isDeletable
  * @property string requestParamsSchema
  *
- * @package dmstr\modules\menu\models
+ * @package dmstr\menus\models
  * @author Christopher Stebe <c.stebe@herzogkommunikation.de>
  */
 class Tree extends BaseTree

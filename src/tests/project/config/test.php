@@ -17,7 +17,7 @@ use yii\web\Application;
 #$testVendorPath = '/repo/tests/project/vendor';
 #require($testVendorPath.'/autoload.php');
 
-Yii::$classMap['dmstr\modules\menu\Module'] = '/repo/Module.php';
+Yii::$classMap['dmstr\menus\Module'] = '/repo/Module.php';
 Yii::$classMap['app\components\EditorIdentity'] = '/repo/tests/project/src/components/EditorIdentity.php';
 
 $common = [
@@ -101,7 +101,7 @@ $common = [
             'maxAge' => 7,
         ],
         'pages' => [
-            'class' => 'dmstr\modules\menu\Module',
+            'class' => 'dmstr\menus\Module',
             'layout' => '@app/views/layouts/main',
         ],
         'settings' => [
@@ -185,7 +185,7 @@ $console = [
                 '@tests/migrations',
             ],
         ],
-        'copy-pages' => '\dmstr\modules\menu\commands\CopyController',
+        'copy-pages' => '\dmstr\menus\commands\CopyController',
     ],
 ];
 

@@ -7,14 +7,14 @@
  * file that was distributed with this source code.
  */
 
-namespace dmstr\modules\menu\helpers;
+namespace dmstr\menus\helpers;
 
-use dmstr\modules\menu\traits\RequestParamActionTrait;
+use dmstr\menus\traits\RequestParamActionTrait;
 use yii\base\BaseObject;
 
 /**
  * Class PageHelper
- * @package dmstr\modules\menu\helpers
+ * @package dmstr\menus\helpers
  * @author Elias Luhr <e.luhr@herzogkommunikation.de>
  */
 class PageHelper

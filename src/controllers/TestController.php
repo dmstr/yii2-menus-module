@@ -7,9 +7,9 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace dmstr\modules\menu\controllers;
+namespace dmstr\menus\controllers;
 
-use dmstr\modules\menu\models\Tree;
+use dmstr\menus\models\Tree;
 use yii\web\Controller;
 
 /**

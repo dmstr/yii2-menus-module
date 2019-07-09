@@ -7,9 +7,9 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace dmstr\modules\menu;
+namespace dmstr\menus;
 
-use dmstr\modules\menu\models\Tree;
+use dmstr\menus\models\Tree;
 use dmstr\web\traits\AccessBehaviorTrait;
 use yii\console\Application;
 
@@ -76,7 +76,7 @@ class Module extends \yii\base\Module
     }
 
     /**
-     * @return mixed|object dmstr\modules\menu\models\Tree
+     * @return mixed|object dmstr\menus\models\Tree
      */
     public function getLocalizedRootNode()
     {

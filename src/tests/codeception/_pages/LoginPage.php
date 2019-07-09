@@ -1,6 +1,6 @@
 <?php
 
-namespace dmstr\modules\menu\tests\codeception\_pages;
+namespace dmstr\menus\tests\codeception\_pages;
 
 
 

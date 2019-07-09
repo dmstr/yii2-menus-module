@@ -1,9 +1,9 @@
 <?php
 
-namespace dmstr\modules\menu\controllers\crud;
+namespace dmstr\menus\controllers\crud;
 
 /**
- * @package dmstr\modules\menu\controllers\crud
+ * @package dmstr\menus\controllers\crud
  */
 class TreeTranslationController extends \yii\web\Controller
 {
@@ -38,10 +38,10 @@ class TreeTranslationController extends \yii\web\Controller
      *
      * @param integer $id
      *
-     * @return \dmstr\modules\menu\models\TreeTranslation
+     * @return \dmstr\menus\models\TreeTranslation
      */
     protected function findModel($id) {
-        if (($model = \dmstr\modules\menu\models\TreeTranslation::findOne($id)) !== null) {
+        if (($model = \dmstr\menus\models\TreeTranslation::findOne($id)) !== null) {
             return $model;
         }
 

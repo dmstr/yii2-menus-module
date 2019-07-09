@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace dmstr\modules\menu\traits;
+namespace dmstr\menus\traits;
 
 
-use dmstr\modules\menu\helpers\PageHelper;
+use dmstr\menus\helpers\PageHelper;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
@@ -69,7 +69,7 @@ use yii\helpers\Inflector;
  *   a validation rule should be defined using notations (see above). For properties of type 'string' a minLength: 1
  *   option is set as fallback.
  *
- * @package dmstr\modules\menu\traits
+ * @package dmstr\menus\traits
  * @author Elias Luhr <e.luhr@herzogkommunikation.de>
  */
 trait RequestParamActionTrait

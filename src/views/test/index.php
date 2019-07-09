@@ -2,7 +2,7 @@
 
 namespace _;
 
-/* @var $tree \dmstr\modules\menu\models\Tree */
+/* @var $tree \dmstr\menus\models\Tree */
 
 use yii\bootstrap\Nav;
 use yii\helpers\VarDumper;
