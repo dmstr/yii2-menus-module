@@ -8,11 +8,11 @@
  */
 
 
-namespace dmstr\modules\pages\models;
+namespace dmstr\modules\menu\models;
 
 
 /**
- * @package dmstr\modules\pages\models
+ * @package dmstr\modules\menu\models
  */
 class TreeCache
 {

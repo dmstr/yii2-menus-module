@@ -1,6 +1,6 @@
 <?php
 
-namespace dmstr\modules\pages\assets;
+namespace dmstr\modules\menu\assets;
 
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;

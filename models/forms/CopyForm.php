@@ -6,15 +6,15 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace dmstr\modules\pages\models\forms;
+namespace dmstr\modules\menu\models\forms;
 
-use dmstr\modules\pages\models\Tree;
+use dmstr\modules\menu\models\Tree;
 use yii\base\Model;
 use yii\helpers\ArrayHelper;
 
 /**
  * Class CopyForm
- * @package dmstr\modules\pages\models\forms
+ * @package dmstr\modules\menu\models\forms
  * @author Christopher Stebe <c.stebe@herzogkommunikation.de>
  */
 class CopyForm extends Model

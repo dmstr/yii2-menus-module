@@ -58,7 +58,7 @@ Enable module in application configuration
 ```
 // module configuration
 'pages' => [
-	'class' => 'dmstr\modules\pages\Module',
+	'class' => 'dmstr\modules\menu\Module',
 	'layout' => '@admin-views/layouts/main',
 	'roles' => ['Admin', 'Editor'],
 	'availableRoutes' => [
@@ -88,7 +88,7 @@ Usage
 by `domain_id` i.e. `root` 
 
 ```
-$menuItems = \dmstr\modules\pages\models\Tree::getMenuItems('root');
+$menuItems = \dmstr\modules\menu\models\Tree::getMenuItems('root');
 ```
 
 *use for example with bootstrap Navbar*

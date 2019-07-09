@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dmstr\modules\pages\models;
+namespace dmstr\modules\menu\models;
 
 use yii\caching\TagDependency;
 use yii\db\ActiveRecord;
@@ -18,7 +18,7 @@ use yii\db\Expression;
 
 /**
  * Class TreeTranslation
- * @package dmstr\modules\pages\models
+ * @package dmstr\modules\menu\models
  * @author Elias Luhr <e.luhr@herzogkommunikation.de>
  */
 class TreeTranslation extends ActiveRecord

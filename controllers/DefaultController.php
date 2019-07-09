@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace dmstr\modules\pages\controllers;
+namespace dmstr\modules\menu\controllers;
 
 use dmstr\modules\backend\interfaces\ContextMenuItemsInterface;
-use dmstr\modules\pages\assets\PagesBackendAsset;
-use dmstr\modules\pages\helpers\PageHelper;
-use dmstr\modules\pages\models\Tree;
+use dmstr\modules\menu\assets\PagesBackendAsset;
+use dmstr\modules\menu\helpers\PageHelper;
+use dmstr\modules\menu\models\Tree;
 use Yii;
 use yii\base\Event;
 use yii\web\Controller;
@@ -23,7 +23,7 @@ use yii\web\View;
 /**
  * Class DefaultController
  *
- * @package dmstr\modules\pages\controllers
+ * @package dmstr\modules\menu\controllers
  * @author Christopher Stebe <c.stebe@herzogkommunikation.de>
  *
  * @property array $menuItems

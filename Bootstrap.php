@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dmstr\modules\pages;
+namespace dmstr\modules\menu;
 
 use yii\base\Application;
 use yii\base\BootstrapInterface;
@@ -16,7 +16,7 @@ use kartik\tree\Module As TreeModule;
 /**
  * Class Bootstrap
  *
- * @package dmstr\modules\pages
+ * @package dmstr\modules\menu
  * @author Marc Mautz <marc@diemeisterei.de>
  */
 class Bootstrap implements BootstrapInterface

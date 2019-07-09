@@ -1,6 +1,6 @@
 <?php
 
-namespace dmstr\modules\pages\views\treeview;
+namespace dmstr\modules\menu\views\treeview;
 
 use dmstr\jsoneditor\JsonEditorWidget;
 use dmstr\widgets\AccessInput;
@@ -21,7 +21,7 @@ use yii\helpers\Url;
  *
  * @var $this  \yii\web\View
  * @var $form \kartik\form\ActiveForm
- * @var $node \dmstr\modules\pages\models\Tree
+ * @var $node \dmstr\modules\menu\models\Tree
  * @var $params array
  * @var $isAdmin boolean
  * @var $keyAttribute string
