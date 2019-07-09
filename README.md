@@ -26,13 +26,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require dmstr/yii2-pages-module "*"
+composer require dmstr/yii2-menus-module "*"
 ```
 
 or add
 
 ```
-"dmstr/yii2-pages-module": "*"
+"dmstr/yii2-menus-module": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -46,7 +46,7 @@ Run migrations
 ```
 ./yii migrate \
     --disableLookup=1 \
-    --migrationPath=@vendor/dmstr/yii2-pages-module/migrations
+    --migrationPath=@vendor/dmstr/yii2-menus-module/migrations
 ```
 
 
@@ -57,7 +57,7 @@ Enable module in application configuration
 
 ```
 // module configuration
-'pages' => [
+'menus' => [
 	'class' => 'dmstr\menus\Module',
 	'layout' => '@admin-views/layouts/main',
 	'roles' => ['Admin', 'Editor'],
