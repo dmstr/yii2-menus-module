@@ -1,5 +1,5 @@
 {
-    "name": "dmstr/yii2-pages-module",
+    "name": "dmstr/yii2-menus-module",
     "description": "Application sitemap and navigation manager module for Yii 2.0 Framework",
     "type": "yii2-extension",
     "keywords": [
@@ -15,8 +15,8 @@
             "email": "tobias@diemeisterei.de"
         },
         {
-            "name": "Christopher Stebe",
-            "email": "c.stebe@herzogkommunikation.de"
+            "name": "Elias Luhr",
+            "email": "e.luhr@herzogkommunikation.de"
         }
     ],
     "require": {
@@ -40,10 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dmstr\\modules\\menu\\": ""
+            "dmstr\\modules\\menu\\": "./src"
         }
-    },
-    "extra": {
-        "bootstrap": "dmstr\\modules\\pages\\Bootstrap"
     }
 }

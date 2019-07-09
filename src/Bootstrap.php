@@ -29,10 +29,10 @@ class Bootstrap implements BootstrapInterface
     public function bootstrap($app)
     {
         // register migration
-        $app->params['yii.migrations'][] = '@vendor/dmstr/yii2-pages-module/migrations';
+        $app->params['yii.migrations'][] = '@vendor/dmstr/yii2-menus-module/src/migrations';
 
         // register module
-        if (\Yii::$app->hasModule('pages') && !\Yii::$app->hasModule('treemanager')) {
+        if (\Yii::$app->hasModule('menu') && !\Yii::$app->hasModule('treemanager')) {
             $app->setModule(
                 'treemanager',
                 [
