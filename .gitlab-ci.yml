@@ -1,0 +1,33 @@
+before_script:
+  - export BUILD_PREFIX=buildpipeline${CI_PIPELINE_ID}
+  - export COMPOSE_PROJECT_NAME=${BUILD_PREFIX}yii2pages
+  - cd tests
+
+after_script:
+  - export BUILD_PREFIX=buildpipeline${CI_PIPELINE_ID}
+  - export COMPOSE_PROJECT_NAME=${BUILD_PREFIX}yii2pages
+  - cd tests
+  - make clean
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - make all
+    - make run-tests
+  artifacts:
+    name: ${CI_PROJECT_PATH}-p${CI_PIPELINE_ID}-codeception
+    when: always
+    expire_in: 4 weeks
+    paths:
+      - tests/codeception/_output
+
+lint:
+  stage: test
+  script:
+    - export COMPOSE_PROJECT_NAME=${COMPOSE_PROJECT_NAME}lint
+    - make build
+    - make lint
+  allow_failure: true

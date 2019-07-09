@@ -1,0 +1,10 @@
+.idea
+.php_cs.cache
+
+tests/codeception/_output
+tests/codeception/_support/_generated
+
+migrations/workbench/dmstr_yii2-pages-module.mwb.bak
+
+tests/project/vendor
+tests/_output
